@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+
+<!-- No index.html linha 185 e script.js linha 4 estão sendo cumpridos os requisitos Jquery;
+        No contato.html linha 144 e  script.js linha 26 estão sendo cumpridos os requisitos javascript;
+        No style.css linha 72 estão sendo cumpridos os requisitos CSS;
+        No sobre.html linha 183 estão sendo cumpridos o requisito HTML <article> e no contato.html linha 225 está sendo cumprido o requisito HTML <aside> -->
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta name="Author" content="Giovanni Marcon">
+
+    <title>Home</title>
+
+
+    <!--- CSS/Bootstrap --->
+    <link rel="sortcut icon" href="./img/logoLotusTeste1.png" type="image/gif" />
+    <link rel="stylesheet" href="./libs/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--- jQuery --->
+    <script src="./libs/bootstrap-4.5.3-dist/jquery/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <header id="topo">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand mt-md-3 ml-md-3" href="index.html">
+                <img src="./img/logoLotusTeste1.png" width="80" height="80" class="d-inline-block rounded-circle"
+                    alt="logo lotus engenharia">
+                <span id="nomeLotus" class="text-info">Lótus </span><span class="text-dark mt-md-2">Engenharia</span>
+            </a>
+            <!-- navbar-toggler: opçao de navegação -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-md-3" id="conteudoNavbarSuportado">
+                <!-- navbar-nav: itens de navegação que suportam itens de menu -->
+                <ul class="navbar-nav mr-md-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-lighter" href="index.html">Home<span class="sr-only">Página
+                                Inicial</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Quem Somos</a>
+                    </li>
+                    <!-- nav-item dropdown PROJETOS  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            projetos
+                        </a>
+                        <div id="menuProdutos" class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bold text-dark">Subestações
+                                Elétricas
+                                Aéreas e Abrigadas</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Instalações
+                                Elétricas</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">SPDA
+                                (Sistemas de Proteção de Descargas Atmosféricas)</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Aterramento</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Grupo
+                                Gerador</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Cabeamento
+                                Estruturado</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Sistema
+                                de
+                                combate ao incêndio</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Eficiência
+                                Energética</a>
+                        </div>
+                        <!-- nav-item dropdown CONSULTORIAS  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CONSULTORIAS
+                        </a>
+                        <div class="dropdown-menu" id="menuConsultoria" aria-labelledby="navbarDropdown">
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Laudo
+                                de inspeção Elétrica</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudo de
+                                Aterramento Elétrico</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Inspeção em
+                                PDA (Proteção de descargas Atmosféricas)</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Gestão de
+                                Energia</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Treinamento
+                                NR-10</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Prontuário
+                                de Instalação Elétrica</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">LTCAT (Laudo
+                                Técnico das Condições do Ambiente de Trabalho)</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">AET
+                                (Análise Ergonômica de Trabalho)</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">PPRA
+                                (Programa de Prevenção de Riscos Ambientais)</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Acompanhamento
+                                de Perícias</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudos em
+                                Segurança do Trabalho.</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline bg-transparent mr-md-5 mt-md-3">
+                    <a href="contato.html"
+                        class="btn btn-light btn-md btn-light rounded-pill text-info font-weight-bolder text-uppercase"
+                        target="_blank" role="button">Contato</a>
+                </form>
+            </div>
+            <script>
+                /* SlideUp Header */
+
+                function someHeader() {
+                    if ($(window).scrollTop() > 400) {
+                        console.log("funcionou slideup");
+                        $(".navbar").slideUp("slow");
+                    } else {
+                        console.log("funcionou o slidedown")
+                        $(".navbar").slideDown("slow");
+                    }
+                }
+                $(function () {
+                    $(window).scroll(() => someHeader());
+                });
+            </script>
+        </nav>
+    </header>
+
+    <main class="container-fluid mt-md-5">
+        <!-- Row -->
+        <div class="row flex-column">
+            <!-- col 12 -->
+            <div class="col-sm-12 col-md-7 w-100 mx-md-auto">
+                <!-- Carrossel -->
+                <div id="carrosselHead" class="carousel slide carousel-fade w-100" data-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                        <li data-target="carrosselHead" data-slide-to="0"></li>
+                        <li data-target="carrosselHead" data-slide-to="1"></li>
+                        <li data-target="carrosselHead" data-slide-to="2"></li>
+                        <!-- <li data-target="carrosselHead" data-slide-to="3"></li>
+                        <li data-target="carrosselHead" data-slide-to="4"></li> -->
+                    </ol>
+
+                    <!-- conteúdo carrossel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid rounded-lg" src="./img/projetos/projeto-eletrico 1024X683.jpg"
+                                alt="Imagem 1">
+                            <div class="carousel-caption rounded-pill">
+                                <h2 class=" text-uppercase">Sempre as melhores soluções</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item rounded-lg">
+                            <img class="img-fluid" src="./img/projetos/energia-solar21.jpg" alt="Imagem 1">
+                            <div class="carousel-caption rounded-pill">
+                                <h2 class="text-dark text-uppercase">Faça seu projeto conosco</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item rounded-lg">
+                            <img class="img-fluid" src="./img/consultorias/consultoria2.jpg" alt="Imagem 1">
+                            <div class="carousel-caption rounded-pill">
+                                <h2 class="text-dark text-uppercase">Inovação e Criatividade com os melhores
+                                    especialistas</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  Controles sem div -->
+                    <a href="#carrosselHead" class="carousel-control-prev" data-slide="prev"><span
+                            class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                    <a href="#carrosselHead" class="carousel-control-next" data-slide="next"><span
+                            class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                </div>
+                <!-- /Carrossel -->
+                <script>
+                    $(function(){
+                        $('.carousel').carousel()
+                    });
+                    
+                </script>
+            </div>
+
+            <!-- Botão Topo -->
+            <span class="text-right mb-md-5">
+                <a class="nav-link fixed-bottom" href="#topo"><img id="botao-topo" class="img-fluid"
+                        src="./img/arrow-up-blue.png" alt="botão para o topo" class="img-fluid"></a>
+            </span>
+
+
+            <!--/col 12 -->
+            <div class="col-md-12 col-md-7 mt-sm-5">
+                <h1 class="display-4">Lótus Engenharia: Projetos & Consultorias</h1>
+
+                <h3 class="lead text-center">
+                    Desenvolvemos projetos de Média e Baixa tensão, realizamos consultorias, inspeções, laudos e parecer
+                    técnico nos campos da engenharia elétrica e de segurança do trabalho,<span
+                        class="font-weight-bolder">atuando na área comercial,
+                        industrial, hospitalar, predial e residencial.</span>
+                </h3>
+
+            </div>
+        </div>
+        <!--/Row -->
+
+
+        <!--Container -->
+        <div class="container mx-md-auto mt-5">
+            <div class="row justify-content-around">
+                <div class="card col-md-3 rounded-lg border-0">
+                    <img id="img-fluid" src="./img/Logo sobre.png" class="card-img-top rounded-circle w-75 ml-5"
+                        alt="logo ilustrativa quem somos">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Quem Somos</h5>
+                        <p class="card-text text-justify text-truncate">Surgimos com o intuito de apresentar de forma inovadora um novo conceito de prestação de serviços de engenharia, com foco na qualidade, transparência e satisfação do cliente.</p>
+                        <a href="sobre.html">Saiba mais</a>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <div class="card col-md-3 rounded-lg border-0">
+                    <img src="./img/Logo Projetos.png" class="card-img-top rounded-circle w-75 ml-5"
+                        alt="logo ilustrativa quem somos">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Projetos</h5>
+                        <p class="card-text text-justify text-truncate">Subestações Elétricas Aéreas e Abrigadas
+                            Sistema Solar Fotovoltaico
+                            Instalações Elétricas
+                            SPDA (Sistemas de Proteção de Descargas Atmosféricas)
+                            Aterramento
+                            Grupo Gerador
+                            Cabeamento Estruturado
+                            Sistema de combate ao incêndio
+                            Eficiência Energética
+                        </p>
+                        <a href="file:///C:/Users/tuli_/OneDrive/Documentos/Developer/SoulCode/ProjetosSoulCoders/projetoLotusEngenharia/projetosConcultorias.html">Saiba mais</a>
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <div class="card col-md-3 rounded-lg border-0">
+                    <img src="./img/logo Consultoria.png" class="card-img-top rounded-circle w-75 ml-4"
+                        alt="logo ilustrativa quem somos">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Consultorias</h5>
+                        <p class="card-text text-justify text-truncate">Laudo de inspeção Elétrica
+                            Laudo de Aterramento Elétrico
+                            Inspeção em PDA (Proteção de descargas Atmosféricas)
+                            Gestão de Energia
+                            Treinamento NR-10
+                            Prontuário de Instalação Elétrica
+                            LTCAT (Laudo Técnico das Condições do Ambiente de Trabalho)
+                            AET (Análise Ergonômica de Trabalho)
+                            PPRA (Programa de Prevenção de Riscos Ambientais)
+                            Acompanhamento de Perícias
+                            Laudos em Segurança do Trabalho.
+                        </p>
+                        <a href="file:///C:/Users/tuli_/OneDrive/Documentos/Developer/SoulCode/ProjetosSoulCoders/projetoLotusEngenharia/projetosConcultorias.html">Saiba mais</a>
+                    </div>
+                    <!-- /card-body -->
+                </div>
+                <!-- card col-3 -->
+
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </main>
+
+    <footer>
+        <div id="rodape">
+            <div id="avisoDePrivacidade">
+                <p>
+                    (85) 9.9981-8820
+                    lotusengenharia.ce@gmail.com
+                </p>
+            </div>
+
+            <div id="RedeSocial">
+                <a href="projetosConcultorias.html"><img src="./img/facebook.svg" alt="facebook"></a>
+
+                <a href="projetosConcultorias.html"><img src="./img/twitter.svg" alt="Twitter"></a>
+
+                <a href="projetosConcultorias.html"><img src="./img/instagram.svg" alt="Instagram"></a>
+
+                <a href="projetosConcultorias.html"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+            </div>
+            <div id="copyright"> &copy; 2021</div>
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap/JS -->
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

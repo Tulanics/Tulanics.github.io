@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+
+<!-- No index.html linha 185 e script.js linha 4 estão sendo cumpridos os requisitos Jquery;
+        No contato.html linha 144 e  script.js linha 26 estão sendo cumpridos os requisitos javascript;
+        No style.css linha 72 estão sendo cumpridos os requisitos CSS;
+        No sobre.html linha 183 estão sendo cumpridos o requisito HTML <article> e no contato.html linha 225 está sendo cumprido o requisito HTML <aside> -->
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta name="Author" content="Giovanni Marcon">
+
+    <title>Contato</title>
+
+
+    <!--- CSS/Bootstrap --->
+    <link rel="sortcut icon" href="./img/logoLotusTeste1.png" type="image/gif" />
+    <link rel="stylesheet" href="./libs/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--- jQuery --->
+    <script src="./libs/bootstrap-4.5.3-dist/jquery/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+
+
+<body>
+    <header id="topo">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand mt-md-3 ml-3" href="#">
+                <img src="./img/logoLotusTeste1.png" width="80" height="80" class="d-inline-block rounded-circle"
+                    alt="">
+                <span id="nomeLotus" class="text-info">Lótus </span><span class="text-dark mt-md-2">Engenharia</span>
+            </a>
+            <!-- navbar-toggler: opçao de navegação -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-md-3" id="conteudoNavbarSuportado">
+                <!-- navbar-nav: itens de navegação que suportam itens de menu -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-lighter" href="index.html">Home<span class="sr-only">Página
+                                Inicial</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-lighter" href="sobre.html">Quem Somos</a>
+                    </li>
+                    <!-- nav-item dropdown PROJETOS  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="projetosConcultorias.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            projetos
+                        </a>
+                        <div id="menuProdutos" class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a href="#" class="projetos-item dropdown-item font-weight-bold text-dark">Subestações
+                                Elétricas
+                                Aéreas e Abrigadas</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Instalações
+                                Elétricas</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">SPDA
+                                (Sistemas de Proteção de Descargas Atmosféricas)</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Aterramento</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Grupo
+                                Gerador</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Cabeamento
+                                Estruturado</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Sistema
+                                de
+                                combate ao incêndio</a>
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Eficiência
+                                Energética</a>
+                        </div>
+                        <!-- nav-item dropdown CONSULTORIAS  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="projetosConcultorias.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CONSULTORIAS
+                        </a>
+                        <div class="dropdown-menu" id="menuConsultoria" aria-labelledby="navbarDropdown">
+                            <a href="#" class="projetos-item dropdown-item font-weight-bolder text-dark">Laudo
+                                de inspeção Elétrica</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudo de
+                                Aterramento Elétrico</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">Inspeção em
+                                PDA (Proteção de descargas Atmosféricas)</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">Gestão de
+                                Energia</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">Treinamento
+                                NR-10</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">Prontuário
+                                de Instalação Elétrica</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">LTCAT (Laudo
+                                Técnico das Condições do Ambiente de Trabalho)</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">AET
+                                (Análise Ergonômica de Trabalho)</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">PPRA
+                                (Programa de Prevenção de Riscos Ambientais)</a>
+                            <a href="#"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Acompanhamento
+                                de Perícias</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudos em
+                                Segurança do Trabalho.</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline bg-transparent mr-md-5 mt-md-3">
+                    <a href="contato.html"
+                        class="btn btn-light btn-md btn-light rounded-pill text-info font-weight-bolder text-uppercase"
+                        target="_blank" role="button">Contato</a>
+                </form>
+            </div>
+            <script>
+                /* SlideUp Header */
+
+                function someHeader() {
+                    if ($(window).scrollTop() > 0) {
+                        console.log("funcionou slideup");
+                        $(".navbar").slideUp("slow");
+                    } else {
+                        console.log("funcionou o slidedown")
+                        $(".navbar").slideDown("slow");
+                    }
+                }
+                $(function () {
+                    $(window).scroll(() => someHeader());
+                });
+            </script>
+        </nav>
+    </header>
+
+
+    <main id="mainContato">
+        <div id="formularioContato" class="row">
+            <div class="card col-7 ml-auto border-0">
+                <h1 class="display-4 col-10 text-center">Solicite seu Orçamento: </h1>
+                <form class="row">
+                    <!-- nome -->
+                    <div class="form-group col-10">
+                        <label>Empresa/Cliente</label>
+                        <input class="form-control" type="text" placeholder="Digite seu usuário"> 
+                    </div>
+                    <!-- cpf/cnpj -->
+                    <div class="form-group col-10">
+                        <label for="cnpj">CNPJ ou CPF</label>
+                        <input class='form-control'
+                            pattern="/(^\d{3}\.\d{3}\.\d{3}\-\d{2}$)|(^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$)/"
+                            placeholder="Exemplo: 11.222.333/4444-55" type="text" name="cnpj" id="cnpj-cpf"
+                            title="Digite como 11.222.333/4444-55" onblur="validaCNPJeCPF()">
+                        <div id="retorno"></div>
+                    </div>
+                    <!-- email -->
+                    <div class="form-group col-10">
+                        <label>Email</label>
+                        <input class="form-control" type="email" id="email" placeholder="Digite seu email">
+                        <small>Email será validado</small>
+                    </div>
+                    <!-- telefone -->
+                    <div class="form-group col-10">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" class="input-text" name="telefone" required="required" type="tel" maxlenght="10"
+                        pattern="^\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}$"
+                        placeholder="(XX)9XXXX-XXXXX">
+                    </div>
+
+                    <!-- estado -->
+                    <div class="form-group col-10">
+                        <label>Estados</label>
+                        <select class="form-control" id="estados">
+                            <option value="Acre(AC)">Acre(AC)</option>
+                            <option value="Amapá (AP)">Amapá (AP)</option>
+                            <option value="Alagoas (AL)">Alagoas (AL)</option>
+                            <option value="Amazonas (AM)">Amazonas (AM)</option>
+                            <option value="Bahia (BA)">Bahia (BA)</option>
+                            <option value="Ceará (CE)">Ceará (CE)</option>
+                            <option value="Distrito Federal (DF)">Distrito Federal (DF)</option>
+                            <option value="Espírito Santo (ES)">Espírito Santo (ES)</option>
+                            <option value="Goiás (GO)">Goiás (GO)</option>
+                            <option value="Maranhão(MA)">Maranhão(MA)</option>
+                            <option value="Mato Grosso (MT)">Mato Grosso (MT)</option>
+                            <option value="Mato Grosso do Sul (MS)">Mato Grosso do Sul (MS)</option>
+                            <option value="Minas Gerais (MG)">Minas Gerais (MG)</option>
+                            <option value="Pará (PA)">Pará (PA)</option>
+                            <option value="Paraíba (PB)"></option>
+                            <option value="Paraná (PR)">Paraná (PR)</option>
+                            <option value="Pernambuco (PE)">Pernambuco (PE)</option>
+                            <option value="Piauí (PI)"></option>
+                            <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+                            <option value="Rio Grande do Norte (RN)">Rio Grande do Norte (RN)</option>
+                            <option value="Rio Grande do Sul (RS)">Rio Grande do Sul (RS)</option>
+                            <option value="Rondônia (RO)">Rondônia (RO)</option>
+                            <option value="Roraima (RR)">Roraima (RR)</option>
+                            <option value="Santa Catarina (SC)"></option>
+                            <option value="São Paulo (SP)">São Paulo (SP)</option>
+                            <option value="Sergipe (SE)">Sergipe (SE)</option>
+                            <option value="Tocantins (TO)">Tocantins (TO)</option> 
+                            
+                        </select>
+                    </div>
+                    <div class="form-group col-10">
+                        <label>Cidade</label>
+                        <input class="form-control" type="text" placeholder="Digite seu usuário">
+                    </div>
+                    <!-- mensagem -->
+                    <div class="form-group col-10">
+                        <label>O que gostaria de saber:</label>
+                        <textarea class="form-control" id="mensagem" rows="5"></textarea>
+                    </div>
+                    <div class="form-group col-10">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div >
+
+                    <!-- Botão Topo -->
+                    <span class="text-right mb-md-5 border-0">
+                        <a class="fixed-bottom" href="#topo"><img id="botao-topo" class="img-fluid"
+                                src="./img/arrow-up-blue.png" alt="botão para o topo" class="img-fluid"></a>
+                    </span>
+                </form>
+            </div>
+           
+            <div class="card col-4">
+                <!-- -------------------- -->
+                <!-- REQUISITO HTML/ASIDE -->
+                <!-- -------------------- -->
+                <aside>
+                    <div class="text-center mt-5">
+                        <img src="./img/logoLotusTeste1.png" width="200" height="200" class="img-fluid d-inline-block rounded-circle"
+                        alt="logo lotus engenharia">
+                        <p class="h5">Lotus Engenharia</p>
+                        <p class="h6">Agradece o seu Contato</p>
+                        <p><span><img src="./img/phone.svg" alt="imagem telefone" class="img-fluid bg-info rounded">: (85) 9.9981-8820 </span></p>
+                        <p><span><img src="./img/envelope.svg" alt="imagem telefone" class="img-fluid bg-info rounded">: (85) 9.9981-8820 </span></p>
+                    </div>
+                </aside>
+            </div>
+            
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div id="rodape">
+            <div id="avisoDePrivacidade">
+                <p>
+                    (85) 9.9981-8820
+                    lotusengenharia.ce@gmail.com
+                </p>
+            </div>
+
+            <div id="RedeSocial">
+                <a href="#"><img src="./img/facebook.svg" alt="facebook"></a>
+
+                <a href="#"><img src="./img/twitter.svg" alt="Twitter"></a>
+
+                <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+
+                <a href="#"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+            </div>
+            <div id="copyright"> &copy; 2021</div>
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap/JS -->
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

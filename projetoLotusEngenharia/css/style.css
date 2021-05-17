@@ -1,0 +1,125 @@
+
+
+
+/* No index.html linha 185 e script.js linha 4 estão sendo cumpridos os requisitos Jquery;
+    No contato.html linha 144 e  script.js linha 26 estão sendo cumpridos os requisitos javascript;
+    No style.css linha 72 estão sendo cumpridos os requisitos CSS;
+    No sobre.html linha 183 estão sendo cumpridos o requisito HTML <article> e no contato.html linha 225 está sendo cumprido o requisito HTML <aside> */
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+    footer{
+        display: grid;
+        grid-template-rows: repeat(1fr);
+    }
+  }
+
+/* ---Header Index--- */
+header{
+    min-height: 90px;
+}
+.navbar{
+    background-color: #e3f2fda1; 
+    font-size: large;
+    font-weight: 600;
+}
+#nomeLotus{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}
+#menuProdutos, #menuConsultoria{
+    background-color: #f8f8f89f;
+    font-weight: 500;
+}
+.carousel-caption{
+    background-color: #e3f2fd8c;
+    margin-bottom: 25%;
+
+}
+
+/* MAIN */
+#mainContato{
+    margin-top: 5%;
+}
+#formularioContato{
+    margin-top: 0;
+}
+
+main div h1{
+    text-align: center;
+}
+
+#seuContato{
+    background-color: #f8f8f89f;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#botao-topo{
+    margin-right: 2%;
+    margin-bottom: 10%;
+    display: none;
+}
+#tituloQuemSomos{
+    padding: 10px 50px;
+
+}
+#tituloQuemSomos h1{
+    margin-bottom: 3%;
+}
+/* ---------------------------------------------------------- */
+/* --------------------REQUISITO CSS------------------------- */
+/* ---------------------------------------------------------- */
+/* Footer-rodapé */
+
+  #rodape{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color:  #e3f2fd;;
+    grid-template-rows: 100px;
+    align-items: center;
+
+}
+
+#avisoDePrivacidade{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #333;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#avisoDePrivacidade p:hover{
+    color: #333;
+}
+
+#RedeSocial{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 120px;
+
+}
+
+#RedeSocial img{
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#copyright{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: #333;
+    font-size: 18px;
+}
+/* ------------------------------------------------------------ */
+/* --------------------/ REQUISITO CSS------------------------- */
+/* ------------------------------------------------------------ */
+
+/* CONTATO */
+

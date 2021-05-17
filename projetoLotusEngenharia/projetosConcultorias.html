@@ -1,0 +1,589 @@
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta name="Author" content="Giovanni Marcon">
+
+    <title>Serviços</title>
+
+
+    <!--- CSS/Bootstrap --->
+    <link rel="sortcut icon" href="./img/logoLotusTeste1.png" type="image/gif" />
+    <link rel="stylesheet" href="./libs/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--- jQuery --->
+    <script src="./libs/bootstrap-4.5.3-dist/jquery/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav id="topo" class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand mt-md-3 ml-3" href="#">
+                <img src="./img/logoLotusTeste1.png" width="80" height="80" class="d-inline-block rounded-circle"
+                    alt="">
+                <span id="nomeLotus" class="text-info">Lótus </span><span class="text-dark mt-md-2">Engenharia</span>
+            </a>
+            <!-- navbar-toggler: opçao de navegação -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-md-3" id="conteudoNavbarSuportado">
+                <!-- navbar-nav: itens de navegação que suportam itens de menu -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-lighter" href="index.html">Home<span class="sr-only">Página
+                                Inicial</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-lighter" href="sobre.html">Quem Somos</a>
+                    </li>
+                    <!-- nav-item dropdown PROJETOS  -->
+                    <li class="nav-item dropdown  active">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="projetosConcultorias.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            projetos
+                        </a>
+                        <div id="menuProdutos" class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bold text-dark">Subestações
+                                Elétricas
+                                Aéreas e Abrigadas</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Instalações
+                                Elétricas</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">SPDA
+                                (Sistemas de Proteção de Descargas Atmosféricas)</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Aterramento</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Grupo
+                                Gerador</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Cabeamento
+                                Estruturado</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Sistema
+                                de
+                                combate ao incêndio</a>
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Eficiência
+                                Energética</a>
+                        </div>
+                        <!-- nav-item dropdown CONSULTORIAS  -->
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="consultoria.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CONSULTORIAS
+                        </a>
+                        <div class="dropdown-menu" id="menuConsultoria" aria-labelledby="navbarDropdown">
+                            <a href="projetosConcultorias.html" class="projetos-item dropdown-item font-weight-bolder text-dark">Laudo
+                                de inspeção Elétrica</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudo de
+                                Aterramento Elétrico</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Inspeção em
+                                PDA (Proteção de descargas Atmosféricas)</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Gestão de
+                                Energia</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Treinamento
+                                NR-10</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Prontuário
+                                de Instalação Elétrica</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">LTCAT (Laudo
+                                Técnico das Condições do Ambiente de Trabalho)</a>
+                            <a href="#" class="consultoria-item dropdown-item font-weight-bolder text-dark">AET
+                                (Análise Ergonômica de Trabalho)</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">PPRA
+                                (Programa de Prevenção de Riscos Ambientais)</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Acompanhamento
+                                de Perícias</a>
+                            <a href="projetosConcultorias.html" class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudos em
+                                Segurança do Trabalho.</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline bg-transparent mr-md-5 mt-md-3">
+                    <a href="contato.html"
+                        class="btn btn-light btn-md btn-light rounded-pill text-info font-weight-bolder text-uppercase"
+                        target="_blank" role="button">Contato</a>
+                </form>
+            </div>
+            <script>
+                /* SlideUp Header */
+
+                function someHeader() {
+                    if ($(window).scrollTop() > 0) {
+                        console.log("funcionou slideup");
+                        $("#topo").slideUp("slow");
+                    } else {
+                        console.log("funcionou o slidedown")
+                        $("#topo").slideDown("slow");
+                    }
+                }
+                $(function () {
+                    $(window).scroll(() => someHeader());
+                });
+            </script>
+        </nav>
+    </header>
+
+
+    <main id="mainContato">
+        <div class="container m-md-5">
+            <h1 class="display-4 mx-auto mb-md-5">Projetos & Consultorias</h1>
+            <h2 id="projetosM" class="mb-3">Projetos</h2>
+            <!-- Nav pills -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#projeto1">Subestações Elétricas Aéreas e Abrigadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto2">Sistema Solar Fotovoltaico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto3">Instalações Elétricas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto4">SPDA (Sistemas de Proteção de Descargas Atmosféricas)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto5">Aterramento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto6">Grupo Gerador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto7">Cabeamento Estruturado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto8">Sistema de combate ao incêndio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#projeto9">Eficiência Energética</a>
+                </li>
+            </ul>
+        
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="projeto1">
+                    <p class="text-justify my-md-4 h3">
+                        Subestações Elétricas Aéreas e Abrigadas
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto2">
+                    <p class="text-justify my-md-4 h3">
+                        Sistema Solar Fotovoltaico
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto3">
+                     <p class="text-justify my-md-4 h3">
+                        Instalações Elétricas
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto4">
+                     <p class="text-justify my-md-4 h3">
+                        SPDA (Sistemas de Proteção de Descargas Atmosféricas)
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto5">
+                     <p class="text-justify my-md-4 h3">
+                        Aterramento
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto6">
+                     <p class="text-justify my-md-4 h3">
+                        Grupo Gerador
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto7">
+                     <p class="text-justify my-md-4 h3">
+                        Cabeamento Estruturado
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto8">
+                     <p class="text-justify my-md-4 h3">
+                        Sistema de combate ao incêndio
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="projeto9">
+                     <p class="text-justify my-md-4 h3">
+                        Eficiência Energética
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+        <div class="container m-5">
+            <h2 id="consultoriasM" class="mb-3">Consultorias</h2>
+            <!-- Nav pills -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#consultoria1">Laudo de inspeção Elétrica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria2">Laudo de Aterramento Elétrico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria3">Inspeção em PDA (Proteção de descargas Atmosféricas)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria4">Gestão de Energia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria5">Treinamento NR-10</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria6">Prontuário de Instalação Elétrica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria7">LTCAT (Laudo Técnico das Condições do Ambiente de Trabalho)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria8">AET (Análise Ergonômica de Trabalho)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria9">PPRA (Programa de Prevenção de Riscos Ambientais)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria10">Acompanhamento de Perícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#consultoria11">Laudos em Segurança do Trabalho.</a>
+                </li>
+            </ul>
+        
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="consultoria1">
+                    <p class="text-justify my-md-4 h3">
+                        Laudo de inspeção Elétrica
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria2">
+                    <p class="text-justify my-md-4 h3">
+                        Laudo de Aterramento Elétrico
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria3">
+                     <p class="text-justify my-md-4 h3">
+                        Inspeção em PDA (Proteção de descargas Atmosféricas)
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria4">
+                     <p class="text-justify my-md-4 h3">
+                        Gestão de Energia
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria5">
+                     <p class="text-justify my-md-4 h3">
+                        Treinamento NR-10
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria6">
+                     <p class="text-justify my-md-4 h3">
+                        Prontuário de Instalação Elétrica
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria7">
+                     <p class="text-justify my-md-4 h3">
+                        LTCAT (Laudo Técnico das Condições do Ambiente de Trabalho)
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria8">
+                     <p class="text-justify my-md-4 h3">
+                        AET (Análise Ergonômica de Trabalho)
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria9">
+                     <p class="text-justify my-md-4 h3">
+                        PPRA (Programa de Prevenção de Riscos Ambientais)
+                    </p>
+                    <p class="text-justify m-md-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                        Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                        Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                        Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                        Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                        veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                        quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                        Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                        consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                        eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="consultoria10">
+                    <p class="text-justify my-md-4 h3">
+                        Acompanhamento de Perícias
+                   </p>
+                   <p class="text-justify m-md-2">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                       Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                       Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                       Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                       Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                       veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                       quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                       Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                       consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                       eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                   </p>
+               </div>
+                <div class="tab-pane container fade" id="consultoria11">
+                    <p class="text-justify my-md-4 h3">
+                        Laudos em Segurança do Trabalho.
+                   <p class="text-justify m-md-2">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum laborum placeat, quibusdam natus architecto consequatur inventore voluptas sit tempore ullam numquam veniam similique, neque possimus minima, consectetur accusamus aspernatur.
+                       Quis sint quos vero ipsum ullam exercitationem earum vitae ea quasi, architecto dolorem ab velit! Porro, ullam praesentium esse, commodi repellendus ut, quis quam natus dolorum dolor sequi magnam debitis?
+                       Dignissimos ea, dolor aut sint nam doloremque non? Similique, ut quos assumenda harum repellendus deleniti, numquam blanditiis doloribus vitae minima odit labore est voluptatibus quo asperiores reprehenderit, consequuntur tempore delectus.
+                       Laudantium quisquam ipsam quibusdam iste laboriosam illo soluta eum, earum magni, dolor aperiam reprehenderit architecto optio dolorem minima labore nesciunt excepturi adipisci! Aliquam explicabo accusamus fugiat minus reprehenderit minima praesentium.
+                       Fugiat tenetur neque ipsam natus fuga reprehenderit facilis deserunt, accusamus sunt
+                       veniam laboriosam voluptatibus! Ratione officia dolore maiores nostrum! Dignissimos
+                       quaerat alias sunt voluptate modi rem minima sint, facilis harum?
+                       Enim quod, quae alias error reiciendis ea corrupti deleniti totam aut, necessitatibus
+                       consequuntur. Deserunt, aliquam delectus, veniam in quibusdam omnis voluptatum magnam
+                       eaque neque consequuntur aperiam tenetur saepe nemo modi.
+                   </p>
+               </div>
+
+            </div>
+                  <!-- Botão Topo -->
+        <span class="text-right mb-md-5">
+            <a class="fixed-bottom" href="#topo"><img id="botao-topo" class="img-fluid"
+                    src="./img/arrow-up-blue.png" alt="botão para o topo" class="img-fluid"></a>
+        </span>
+            
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="rodape">
+            <div id="avisoDePrivacidade">
+                <p>
+                    (85) 9.9981-8820
+                    lotusengenharia.ce@gmail.com
+                </p>
+            </div>
+
+            <div id="RedeSocial">
+                <a href="#"><img src="./img/facebook.svg" alt="facebook"></a>
+
+                <a href="#"><img src="./img/twitter.svg" alt="Twitter"></a>
+
+                <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+
+                <a href="#"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+            </div>
+            <div id="copyright"> &copy; 2021</div>
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap/JS -->
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>

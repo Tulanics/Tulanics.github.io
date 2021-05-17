@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+
+<!-- No index.html linha 185 e script.js linha 4 estão sendo cumpridos os requisitos Jquery;
+        No contato.html linha 144 e  script.js linha 26 estão sendo cumpridos os requisitos javascript;
+        No style.css linha 72 estão sendo cumpridos os requisitos CSS;
+        No sobre.html linha 183 estão sendo cumpridos o requisito HTML <article> e no contato.html linha 225 está sendo cumprido o requisito HTML <aside> -->
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta name="Author" content="Giovanni Marcon">
+
+    <title>Quem Somos</title>
+
+
+    <!--- CSS/Bootstrap --->
+    <link rel="sortcut icon" href="./img/logoLotusTeste1.png" type="image/gif" />
+    <link rel="stylesheet" href="./libs/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--- jQuery --->
+    <script src="./libs/bootstrap-4.5.3-dist/jquery/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <header id="topo">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand mt-md-3 ml-3" href="#">
+                <img src="./img/logoLotusTeste1.png" width="80" height="80" class="d-inline-block rounded-circle"
+                    alt="">
+                <span id="nomeLotus" class="text-info">Lótus </span><span class="text-dark mt-md-2">Engenharia</span>
+            </a>
+            <!-- navbar-toggler: opçao de navegação -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-md-3" id="conteudoNavbarSuportado">
+                <!-- navbar-nav: itens de navegação que suportam itens de menu -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-lighter" href="index.html">Home<span class="sr-only">Página
+                                Inicial</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-lighter active" href="sobre.html">Quem Somos</a>
+                    </li>
+                    <!-- nav-item dropdown PROJETOS  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="projetos.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            projetos
+                        </a>
+                        <div id="menuProdutos" class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bold text-dark">Subestações
+                                Elétricas
+                                Aéreas e Abrigadas</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Instalações
+                                Elétricas</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">SPDA
+                                (Sistemas de Proteção de Descargas Atmosféricas)</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Aterramento</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Grupo
+                                Gerador</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Cabeamento
+                                Estruturado</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Sistema
+                                de
+                                combate ao incêndio</a>
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Eficiência
+                                Energética</a>
+                        </div>
+                        <!-- nav-item dropdown CONSULTORIAS  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase font-weight-lighter" href="consultoria.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CONSULTORIAS
+                        </a>
+                        <div class="dropdown-menu" id="menuConsultoria" aria-labelledby="navbarDropdown">
+                            <a href="projetosConcultorias.html"
+                                class="projetos-item dropdown-item font-weight-bolder text-dark">Laudo
+                                de inspeção Elétrica</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudo de
+                                Aterramento Elétrico</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Inspeção em
+                                PDA (Proteção de descargas Atmosféricas)</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Gestão de
+                                Energia</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Treinamento
+                                NR-10</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Prontuário
+                                de Instalação Elétrica</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">LTCAT (Laudo
+                                Técnico das Condições do Ambiente de Trabalho)</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">AET
+                                (Análise Ergonômica de Trabalho)</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">PPRA
+                                (Programa de Prevenção de Riscos Ambientais)</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Acompanhamento
+                                de Perícias</a>
+                            <a href="projetosConcultorias.html"
+                                class="consultoria-item dropdown-item font-weight-bolder text-dark">Laudos em
+                                Segurança do Trabalho.</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline bg-transparent mr-md-5 mt-md-3">
+                    <a href="contato.html"
+                        class="btn btn-light btn-md btn-light rounded-pill text-info font-weight-bolder text-uppercase"
+                        target="_blank" role="button">Contato</a>
+                </form>
+            </div>
+            <script>
+                /* SlideUp Header */
+
+                function someHeader() {
+                    if ($(window).scrollTop() > 0) {
+                        console.log("funcionou slideup");
+                        $(".navbar").slideUp("slow");
+                    } else {
+                        console.log("funcionou o slidedown")
+                        $(".navbar").slideDown("slow");
+                    }
+                }
+                $(function () {
+                    $(window).scroll(() => someHeader());
+                });
+            </script>
+        </nav>
+    </header>
+
+    <main class="container-fluid mt-4 mb-5">
+        <div id="tituloQuemSomos" class="row m-5">
+            <h1 class="display-4 mx-auto">Quem Somos</h1>
+            <h3 class="lead text-center">A Lotus Engenharia Projetos e Consultoria, surgiu com o intuito de apresentar de forma
+                inovadora um novo conceito de prestação de serviços de engenharia, com foco na qualidade, transparência
+                e satisfação do cliente. </h3>
+
+        </div>
+        <div class="row border-0 mx-auto">
+            <div id="missao" class="card col-md-4 border-0">
+                <img class="card-img-top w-50 rounded-circle mx-auto" src="./img/missao(128).png"
+                    alt="imagem ilustrativa de missão">
+                <h4 class="card-title text-md-center text-info">Missão:</h4>
+                <p class="card-text text-md-center"> Garantir a qualidade na entrega dos serviços gerando a satisfação e
+                    credibilidade juntos aos clientes.</p>
+            </div>
+            <div id="visao" class=" card col-md-4 border-0">
+                <img class="card-img-top w-50 rounded-circle mx-auto" src="./img/visao-da-empresa (128).png"
+                    alt="imagem ilustrativa de olho">
+                <h4 class="card-title text-md-center text-info">Visão:</h4>
+                <p class="card-text text-md-center">Ser referência na prestação de serviços de engenharia no estado do
+                    Ceará até 2032.</p>
+            </div>
+            <div id="valores" class="card col-md-4 border-0">
+                <img class="card-img-top w-50 rounded-circle mx-auto" src="./img/valores.png"
+                    alt="imagem ilustrativa de olho">
+                <h4 class="card-title text-md-center text-info">Valores:</h4>
+                <p class="card-text text-md-center">Honrar compromissos, Competência no que faz, integridade, satisfação
+                    do cliente e ética.</p>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 5%;">
+            <!-- ---------------------- -->
+            <!-- REQUISITO HTML/ARTICLE -->
+            <!-- ---------------------- -->
+            <article>
+                <h3 class="display-4
+                text-center mx-3">Blog de Notícias</h3>
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#"><img class="img-fluid rounded" src="./img/consultorias/consultoria1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-8">
+                        <h2 class="text-info">Notícias</h2>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex minus vero consequatur,
+                            quaerat eaque nobis, nihil, accusamus veniam natus culpa suscipit! Ex minima dolor
+                            repudiandae iusto quo consectetur rerum?
+                            Repellendus rem voluptatibus nemo iste labore sint ipsa doloribus explicabo similique quo,
+                            quas accusamus ullam velit possimus id. Eius, ipsam. Perferendis recusandae reprehenderit
+                            unde minus nihil possimus quidem pariatur quas? <span><a href="#">Saiba mais</a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#"><img class="img-fluid rounded" src="./img/consultorias/consultoria1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-8">
+                        <h2 class="text-info">Artigos</h2>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex minus vero consequatur,
+                            quaerat eaque nobis, nihil, accusamus veniam natus culpa suscipit! Ex minima dolor
+                            repudiandae iusto quo consectetur rerum?
+                            Repellendus rem voluptatibus nemo iste labore sint ipsa doloribus explicabo similique quo,
+                            quas accusamus ullam velit possimus id. Eius, ipsam. Perferendis recusandae reprehenderit
+                            unde minus nihil possimus quidem pariatur quas? <span><a href="#">Saiba mais</a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#"><img class="img-fluid rounded" src="./img/consultorias/consultoria1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-8">
+                        <h2 class="text-info">Serviços Prestados</h2>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex minus vero consequatur,
+                            quaerat eaque nobis, nihil, accusamus veniam natus culpa suscipit! Ex minima dolor
+                            repudiandae iusto quo consectetur rerum?
+                            Repellendus rem voluptatibus nemo iste labore sint ipsa doloribus explicabo similique quo,
+                            quas accusamus ullam velit possimus id. Eius, ipsam. Perferendis recusandae reprehenderit
+                            unde minus nihil possimus quidem pariatur quas? <span><a href="#">Saiba mais</a></span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Botão Topo -->
+            <!-- <span class="text-right mb-md-5">
+            <a href="#topo"><img id="botao-topo" class="img-fluid" src="./img/arrow-up-blue.png" alt="botão para o topo" class="img-fluid"></a>
+        </span> -->
+        </div>
+    </main>
+
+    <footer>
+        <div id="rodape">
+            <div id="avisoDePrivacidade">
+                <p>
+                    (85) 9.9981-8820
+                    lotusengenharia.ce@gmail.com
+                </p>
+            </div>
+
+            <div id="RedeSocial">
+                <a href="projetosConcultorias.html"><img src="./img/facebook.svg" alt="facebook"></a>
+
+                <a href="projetosConcultorias.html"><img src="./img/twitter.svg" alt="Twitter"></a>
+
+                <a href="projetosConcultorias.html"><img src="./img/instagram.svg" alt="Instagram"></a>
+
+                <a href="projetosConcultorias.html"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+            </div>
+            <div id="copyright"> &copy; 2021</div>
+        </div>
+
+    </footer>
+
+
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/script.css"></script>
+</body>
+
+</html>
