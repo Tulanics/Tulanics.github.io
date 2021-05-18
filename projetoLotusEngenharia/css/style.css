@@ -17,16 +17,22 @@
             font-size: 80%;
            }
       }
-      @media only screen and (max-width: 520px) {
-       main .row{
-           margin-left: 30%;
-       }
+      @media only screen and (max-width: 320px) {
+        [class*="col-"] {
+          width: 100%;
+        }
+        footer{
+            display: grid;
+            grid-template-rows: repeat(1fr);
+        }
+        body {
+            font-size: 80%;
+           }
       }
       html {
         font-size: 1rem;
       }
-
-/* ---Header Index--- */
+      /* ---Header Index--- */
 header{
     min-height: 90px;
 }
