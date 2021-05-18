@@ -5,15 +5,26 @@
     No contato.html linha 144 e  script.js linha 26 estão sendo cumpridos os requisitos javascript;
     No style.css linha 72 estão sendo cumpridos os requisitos CSS;
     No sobre.html linha 183 estão sendo cumpridos o requisito HTML <article> e no contato.html linha 225 está sendo cumprido o requisito HTML <aside> */
-@media only screen and (max-width: 768px) {
-    [class*="col-"] {
-      width: 100%;
-    }
-    footer{
-        display: grid;
-        grid-template-rows: repeat(1fr);
-    }
-  }
+    @media only screen and (max-width: 768px) {
+        [class*="col-"] {
+          width: 100%;
+        }
+        footer{
+            display: grid;
+            grid-template-rows: repeat(1fr);
+        }
+        body {
+            font-size: 80%;
+           }
+      }
+      @media only screen and (max-width: 520px) {
+       main .row{
+           margin-left: 30%;
+       }
+      }
+      html {
+        font-size: 1rem;
+      }
 
 /* ---Header Index--- */
 header{
