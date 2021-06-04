@@ -147,9 +147,6 @@ header .btn{
     line-height: 24px;
 }
 @media (max-width: 700px){
-    .sobre{
-        margin: 3em 80px
-    }
     .divsobre{
         display: flex;
         flex-direction: column;
