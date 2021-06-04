@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;;
+}
+html{
+    scroll-behavior: smooth;
+}
+ 
+nav, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+    font-weight: 600;
+    transition: 100ms;
+}
+
+/* HOME */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #e3f2fd;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    padding: 0 2rem;
+}
+header li a{
+    color: #317bc6;
+}
+header .btn{
+    padding: 5px 20px;
+    background-color: transparent;
+    color: #317bc6;
+    font-size: larger;
+    font-weight: 600;
+}
+@media (max-width: 700px){    
+    header{
+        flex-direction: column;
+    }    
+    header img {
+
+        margin-bottom: 15px;
+    }    
+}
+
+.capa{
+    width: 100%;
+    min-height: 500px;
+    /* margin-top: 85px; */
+    position: static;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    background-image: url(../img/consultoria3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+   
+}
+.capa h2{
+    font-size: xx-large;
+    margin-bottom: 0.5em;
+    font-variant: small-caps;
+}
+.capa h3{
+    font-size: x-large;
+    margin-bottom: 1em;
+    font-variant: small-caps;
+}
+.capa a{
+    background-color: #f8f8f8;
+    padding: 10px 12px;
+    color: #333;
+    font-weight: 600;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 5px;
+    font-variant: small-caps;
+}
+@media (max-width: 700px){ 
+    .capa{
+        margin-top: 155px;
+    }   
+    .capa h1{ 
+        font-size: 2.5em;
+        margin-top: 50px;
+    }    
+    .capa h3 { font-size: 1.5em;}    
+}
+
+.chamada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.chamada h1{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #317bc6;
+    margin: 3em 0 1em;
+}
+.chamada p{
+    font-size: 20px;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 3em 175px;
+}
+.divsobre{
+    display: flex;
+    flex-direction: row;
+    margin: 3em 0;
+}
+.divsobre ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divsobre ul li{
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+@media (max-width: 700px){
+    .divsobre{
+        display: flex;
+        flex-direction: column;
+        margin: 3em 0;
+    }
+    .divsobre img{
+        width: 100%;
+        height: 100%;
+    }
+    .divsobre ul li{
+        font-size: smaller;
+    }
+
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #e3f2fd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:#317bc6
+}
+footer #redessociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer #redessociais a{
+    margin-right: 5em;
+}
+footer #redessociais a svg{
+    width: 25px;
+    height: 25px;
+    
+}
+@media (max-width: 700px){ 
+    footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        font-size: smaller;
+    }
+    footer div p{
+        text-align: center;
+    }      
+    footer div{
+        margin-bottom: 1em;
+    }
+    footer #redessociais{
+        margin-left: 5em;
+    }
+    footer #redessociais a svg{
+        width: 20px;
+        height: 20px;
+    }
+}
+
